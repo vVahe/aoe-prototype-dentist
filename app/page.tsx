@@ -12,7 +12,7 @@ import { MobileCTABar } from '@/components/MobileCTABar'
 export default function Home() {
   return (
     <BookingModalProvider>
-      <div className="flex min-h-screen flex-col pb-16 md:pb-0">
+      <div className="flex min-h-screen flex-col bg-background pb-16 md:pb-0">
         {/* Desktop Navigation */}
         <Navbar />
 
